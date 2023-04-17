@@ -185,7 +185,7 @@ function Section2() {
               </span>
               <br /> 성장 로드맵
             </Text>
-            <Text2>생생을 넘어 가치를 창조합니다.</Text2>
+            <Text2>상상을 넘어 가치를 창조합니다.</Text2>
           </TextWrap>
         </RoketWrap>
         <AboutWrap>

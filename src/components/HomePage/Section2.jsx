@@ -121,7 +121,7 @@ const BtmLWrap = styled.div`
     font-size: 1.2vw;
     font-weight: bold;
     border-radius: 5px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   & span {
     &:nth-last-child(4) {

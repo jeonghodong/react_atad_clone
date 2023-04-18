@@ -2,6 +2,10 @@ import { useState } from "react";
 import roket from "/public/img/main_rocket.png";
 import logo from "/public/img/logo_ico.png";
 import styled from "styled-components";
+import tab1 from "/public/img/ico_tab_b1.svg";
+import tab2 from "/public/img/ico_tab_b2.svg";
+import tab3 from "/public/img/ico_tab_b3.svg";
+import tab4 from "/public/img/ico_tab_b4.svg";
 
 const Wrap = styled.div`
   background-color: #eee;
@@ -84,18 +88,6 @@ const TapWrap = styled.div`
   display: flex;
   padding: 16px;
   background-color: #eee;
-  & div:nth-child(1) {
-    width: 40%;
-    height: 700px;
-    background-image: url(/public/img/tab_img_a1.jpg);
-    background-size: cover;
-    border-radius: 2rem 0rem 0rem 2rem;
-  }
-  & div:nth-child(2) {
-    width: 70%;
-    border-radius: 0rem 2rem 2rem 0rem;
-    background-color: white;
-  }
 `;
 const LogoImg = styled.img`
   width: 3vw;
@@ -108,6 +100,11 @@ const BtmLWrap = styled.div`
   padding: 2rem;
   flex-direction: column;
   color: white;
+  width: 40%;
+  height: 700px;
+  background-image: url(/public/img/tab_img_a1.jpg);
+  background-size: cover;
+  border-radius: 2rem 0rem 0rem 2rem;
   & h2 {
     font-weight: bold;
     font-size: 2vw;
@@ -159,7 +156,46 @@ const BtmLWrap = styled.div`
 `;
 
 const BtmRWrap = styled.div`
-  padding: 1rem;
+  padding: 3rem;
+  width: 70%;
+  border-radius: 0rem 2rem 2rem 0rem;
+  background-color: white;
+  & h2 {
+    font-size: 1.7vw;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  & span {
+    font-size: 1.2vw;
+    font-weight: lighter;
+  }
+`;
+
+const Circle = styled.div`
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 4px 5px 0px rgba(15, 121, 106, 0.15) inset;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+  background-color: white;
+`;
+
+const BtmRInWrap = styled.div`
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  & h2 {
+    color: #20b19c;
+    font-size: 1.5vw;
+  }
+  & span {
+    font-size: 1vw;
+  }
 `;
 
 function Section2() {
@@ -272,8 +308,22 @@ function Section2() {
           ) : null}
         </BtmLWrap>
         <BtmRWrap>
-          <span>adsf</span>
-          <span>fdas</span>
+          <h2>
+            아타드 월렛은 사용자의 정보를 안전하게 보호하며,
+            <br /> 다양한 생태계 확장을 위한 기본 시스템을 제공합니다.
+          </h2>
+          <span>Web3.0 기반의 시스템으로 아타드 생태계 내의 모든 서비스를 안전하고 간편하게 통합 관리합니다.</span>
+          <BtmRInWrap>
+            <Circle>
+              <img src={tab1} alt="img" width="80%" />
+            </Circle>
+            <div>
+              <h2>개인정보 없는 신원인증시스템</h2>
+              <span>
+                사용자의 개인정보 없이 블록체인 기반의 신원인증 매커니즘을 통해 사용자 본인을 인증하는 안전한 시스템
+              </span>
+            </div>
+          </BtmRInWrap>
         </BtmRWrap>
       </TapWrap>
     </>

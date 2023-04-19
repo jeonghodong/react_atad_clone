@@ -173,7 +173,7 @@ Error generating stack: `+i.message+`
   color: white;
   width: 40%;
   height: 700px;
-  background-image: url("/react_atad_clone/img/tab_img_a1.jpg");
+  background-image: url(/react_atad_clone/img/tab_img_a1.jpg);
   background-size: cover;
   border-radius: 2rem 0rem 0rem 2rem;
   & h2 {

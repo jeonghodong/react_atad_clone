@@ -97,6 +97,7 @@ const TapWrap = styled.div`
   height: auto;
   margin: 0 auto;
   padding: 0 20px;
+  padding-bottom: 5rem;
 `;
 const LogoImg = styled.img`
   width: 3vw;

@@ -15,6 +15,9 @@ const Wrap = styled.div`
   padding: 1rem 0rem;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
 `;
 
 const Img = styled.img`

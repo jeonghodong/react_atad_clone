@@ -3,17 +3,27 @@ import styled from "styled-components";
 import logo from "/img/logo.jpg";
 import { Link } from "react-router-dom";
 
+const HeaderWrap = styled.div`
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.03);
+`;
 const Wrap = styled.div`
   width: 100%;
-  background-color: white;
+  max-width: 1600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+`;
+
+const InWrap = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 0rem 1rem;
   align-items: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 500;
 `;
 
 const Img = styled.img`
@@ -39,27 +49,31 @@ const Btn = styled.button`
 
 function Header() {
   return (
-    <Wrap>
-      <div>
-        <Link to="/react_atad_clone">
-          <Img src={logo} alt="logo_img" />
-        </Link>
-      </div>
-      <div>
-        <Link to="/about">
-          <Li>아타드 소개</Li>
-        </Link>
-        <Link to="/service">
-          <Li>서비스</Li>
-        </Link>
-        <Link to="/business">
-          <Li>사업영역</Li>
-        </Link>
-      </div>
-      <div>
-        <Btn>문의하기</Btn>
-      </div>
-    </Wrap>
+    <HeaderWrap>
+      <Wrap>
+        <InWrap>
+          <div>
+            <Link to="/react_atad_clone">
+              <Img src={logo} alt="logo_img" />
+            </Link>
+          </div>
+          <div>
+            <Link to="/about">
+              <Li>아타드 소개</Li>
+            </Link>
+            <Link to="/service">
+              <Li>서비스</Li>
+            </Link>
+            <Link to="/business">
+              <Li>사업영역</Li>
+            </Link>
+          </div>
+          <div>
+            <Btn>문의하기</Btn>
+          </div>
+        </InWrap>
+      </Wrap>
+    </HeaderWrap>
   );
 }
 

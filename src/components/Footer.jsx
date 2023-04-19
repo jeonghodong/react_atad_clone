@@ -29,12 +29,12 @@ const Wrap = styled.div`
       flex-direction: column;
       justify-content: center;
       & h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: bold;
         padding-bottom: 0.7rem;
       }
       & span {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: lighter;
         padding-bottom: 0.5rem;
       }

@@ -1,13 +1,13 @@
 import { useState } from "react";
-import roket from "/public/img/main_rocket.png";
-import logo from "/public/img/logo_ico.png";
 import styled from "styled-components";
-import tab1 from "/public/img/ico_tab_b1.svg";
-import tab2 from "/public/img/ico_tab_b2.svg";
-import tab3 from "/public/img/ico_tab_b3.svg";
-import tab4 from "/public/img/ico_tab_b4.svg";
-import Bimg2 from "/public/img/business_img_a2.jpg";
-import Bimg3 from "/public/img/business_img_a3.jpg";
+import roket from "/img/main_rocket.png";
+import logo from "/img/logo_ico.png";
+import tab1 from "/img/ico_tab_b1.svg";
+import tab2 from "/img/ico_tab_b2.svg";
+import tab3 from "/img/ico_tab_b3.svg";
+import tab4 from "/img/ico_tab_b4.svg";
+import Bimg2 from "/img/business_img_a2.jpg";
+import Bimg3 from "/img/business_img_a3.jpg";
 
 const Wrap = styled.div`
   background-color: #eee;
@@ -112,7 +112,7 @@ const BtmLWrap = styled.div`
   color: white;
   width: 40%;
   height: 700px;
-  background-image: url(/public/img/tab_img_a1.jpg);
+  background-image: url(/react_atad_clone/img/tab_img_a1.jpg);
   background-size: cover;
   border-radius: 2rem 0rem 0rem 2rem;
   & h2 {

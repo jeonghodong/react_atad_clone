@@ -1,15 +1,15 @@
 import styled, { keyframes } from "styled-components";
-import img1 from "/public/img/cooperation_img1.png";
-import img2 from "/public/img/cooperation_img2.png";
-import img3 from "/public/img/cooperation_img3.png";
-import img4 from "/public/img/cooperation_img4.png";
-import img5 from "/public/img/cooperation_img5.png";
-import img6 from "/public/img/cooperation_img6.png";
-import img7 from "/public/img/cooperation_img7.png";
-import img8 from "/public/img/cooperation_img8.png";
-import img9 from "/public/img/cooperation_img9.png";
-import img10 from "/public/img/cooperation_img10.png";
-import img12 from "/public/img/cooperation_img12.png";
+import img1 from "/img/cooperation_img1.png";
+import img2 from "/img/cooperation_img2.png";
+import img3 from "/img/cooperation_img3.png";
+import img4 from "/img/cooperation_img4.png";
+import img5 from "/img/cooperation_img5.png";
+import img6 from "/img/cooperation_img6.png";
+import img7 from "/img/cooperation_img7.png";
+import img8 from "/img/cooperation_img8.png";
+import img9 from "/img/cooperation_img9.png";
+import img10 from "/img/cooperation_img10.png";
+import img12 from "/img/cooperation_img12.png";
 
 const RightMove = keyframes`
  0% {
@@ -84,7 +84,7 @@ const ImgSlideWrap2 = styled.div`
   }
 `;
 
-function Section5() {
+function Section4() {
   return (
     <Wrap>
       <InWrap>
@@ -123,4 +123,4 @@ function Section5() {
   );
 }
 
-export default Section5;
+export default Section4;

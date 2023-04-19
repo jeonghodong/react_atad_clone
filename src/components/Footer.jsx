@@ -1,4 +1,4 @@
-import logo from "/public/img/logo.jpg";
+import logo from "/img/logo.jpg";
 import styled from "styled-components";
 
 const Wrap = styled.div`

@@ -114,19 +114,19 @@ function Section3() {
 
 const posts = [
   {
-    img: "/public/img/news1.png",
+    img: "/react_atad_clone/img/news1.png",
     stock: "아타드(주)",
     name: "글로벌 IP 확장 및 미국 지사 설립",
     text: "글로벌 IP 확장 및 미국 지사 설립",
   },
   {
-    img: "/public/img/news1.png",
+    img: "/react_atad_clone/img/news1.png",
     stock: "아타드(주)",
     name: "글로벌 IP 확장 및 미국 지사 설립",
     text: "글로벌 IP 확장 및 미국 지사 설립",
   },
   {
-    img: "/public/img/news1.png",
+    img: "/react_atad_clone/img/news1.png",
     stock: "아타드(주)",
     name: "글로벌 IP 확장 및 미국 지사 설립",
     text: "글로벌 IP 확장 및 미국 지사 설립",

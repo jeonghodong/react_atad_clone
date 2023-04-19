@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "/public/img/logo.jpg";
+import logo from "/img/logo.jpg";
 import { Link } from "react-router-dom";
 
 const Wrap = styled.div`
@@ -41,7 +41,7 @@ function Header() {
   return (
     <Wrap>
       <div>
-        <Link to="/">
+        <Link to="/react_atad_clone">
           <Img src={logo} alt="logo_img" />
         </Link>
       </div>

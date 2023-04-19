@@ -173,7 +173,7 @@ Error generating stack: `+i.message+`
   color: white;
   width: 40%;
   height: 700px;
-  background-image: url("/img/tab_img_a1.jpg");
+  background-image: url("/react_atad_clone/img/tab_img_a1.jpg");
   background-size: cover;
   border-radius: 2rem 0rem 0rem 2rem;
   & h2 {
@@ -351,7 +351,7 @@ Error generating stack: `+i.message+`
     color: #1fb09c;
     margin-top: 2rem;
   }
-`;function dv(){return A(ov,{children:[A(uv,{children:[A(av,{children:[v("h2",{children:"아타드 뉴스"}),v("p",{children:"아타드의 새로운 소식을 전합니다."})]}),A(sv,{children:[A("div",{children:[v("button",{children:"<"}),v("button",{children:">"})]}),v("div",{})]})]}),v(cv,{children:pv.map((e,t)=>A(fv,{children:[v("img",{src:e.img,alt:"img"}),v("span",{children:e.stock}),v("h2",{children:e.name}),v("p",{children:e.text}),v("button",{children:"MORE VIEW"})]},t))})]})}const pv=[{img:"/img/news1.png",stock:"아타드(주)",name:"글로벌 IP 확장 및 미국 지사 설립",text:"글로벌 IP 확장 및 미국 지사 설립"},{img:"/img/news1.png",stock:"아타드(주)",name:"글로벌 IP 확장 및 미국 지사 설립",text:"글로벌 IP 확장 및 미국 지사 설립"},{img:"/img/news1.png",stock:"아타드(주)",name:"글로벌 IP 확장 및 미국 지사 설립",text:"글로벌 IP 확장 및 미국 지사 설립"}],xl="/react_atad_clone/img/cooperation_img1.png",mc="/react_atad_clone/img/cooperation_img2.png",gc="/react_atad_clone/img/cooperation_img3.png",vc="/react_atad_clone/img/cooperation_img4.png",yc="/react_atad_clone/img/cooperation_img5.png",wc="/react_atad_clone/img/cooperation_img6.png",Sc="/react_atad_clone/img/cooperation_img7.png",kc="/react_atad_clone/img/cooperation_img8.png",xc="/react_atad_clone/img/cooperation_img9.png",Cc="/react_atad_clone/img/cooperation_img10.png",Ec="/react_atad_clone/img/cooperation_img12.png",hv=rp`
+`;function dv(){return A(ov,{children:[A(uv,{children:[A(av,{children:[v("h2",{children:"아타드 뉴스"}),v("p",{children:"아타드의 새로운 소식을 전합니다."})]}),A(sv,{children:[A("div",{children:[v("button",{children:"<"}),v("button",{children:">"})]}),v("div",{})]})]}),v(cv,{children:pv.map((e,t)=>A(fv,{children:[v("img",{src:e.img,alt:"img"}),v("span",{children:e.stock}),v("h2",{children:e.name}),v("p",{children:e.text}),v("button",{children:"MORE VIEW"})]},t))})]})}const pv=[{img:"/react_atad_clone/img/news1.png",stock:"아타드(주)",name:"글로벌 IP 확장 및 미국 지사 설립",text:"글로벌 IP 확장 및 미국 지사 설립"},{img:"/react_atad_clone/img/news1.png",stock:"아타드(주)",name:"글로벌 IP 확장 및 미국 지사 설립",text:"글로벌 IP 확장 및 미국 지사 설립"},{img:"/react_atad_clone/img/news1.png",stock:"아타드(주)",name:"글로벌 IP 확장 및 미국 지사 설립",text:"글로벌 IP 확장 및 미국 지사 설립"}],xl="/react_atad_clone/img/cooperation_img1.png",mc="/react_atad_clone/img/cooperation_img2.png",gc="/react_atad_clone/img/cooperation_img3.png",vc="/react_atad_clone/img/cooperation_img4.png",yc="/react_atad_clone/img/cooperation_img5.png",wc="/react_atad_clone/img/cooperation_img6.png",Sc="/react_atad_clone/img/cooperation_img7.png",kc="/react_atad_clone/img/cooperation_img8.png",xc="/react_atad_clone/img/cooperation_img9.png",Cc="/react_atad_clone/img/cooperation_img10.png",Ec="/react_atad_clone/img/cooperation_img12.png",hv=rp`
  0% {
       transform: translateX(0);
     }

@@ -10,6 +10,10 @@ const Wrap = styled.div`
   justify-content: space-between;
   padding: 0rem 1rem;
   align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
 `;
 
 const Img = styled.img`
@@ -21,6 +25,16 @@ const Li = styled.a`
   padding: 0rem 1rem;
   font-size: 1.5vw;
   font-weight: bold;
+`;
+
+const Btn = styled.button`
+  border: none;
+  background: linear-gradient(225deg, #0d657e, #23bca0);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
 `;
 
 function Header() {
@@ -43,8 +57,7 @@ function Header() {
         </Link>
       </div>
       <div>
-        <button>문의하기</button>
-        <button>문의하기</button>
+        <Btn>문의하기</Btn>
       </div>
     </Wrap>
   );

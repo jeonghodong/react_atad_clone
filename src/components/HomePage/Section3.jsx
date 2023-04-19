@@ -4,7 +4,7 @@ const Wrap = styled.div`
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 5rem 1rem 1rem 1rem;
+  padding: 5rem 1rem 5rem 1rem;
   overflow: hidden;
 `;
 const Header = styled.div`
